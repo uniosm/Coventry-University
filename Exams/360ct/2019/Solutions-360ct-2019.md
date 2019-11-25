@@ -12,7 +12,7 @@ Solution: In the diagram provided there are 7 collision domains and 5 broadcast 
 ![Image of Diagram 1](https://github.com/uniosm/Coventry-University/blob/master/Exams/360ct/2019/images/solution.png?raw=true)
 
 
-*a2)Which route a packet from PC1 to the Server follow if RIP routing protocol was used and why?*
+*a2) Which route a packet from PC1 to the Server follow if RIP routing protocol was used and why?*
 
 Solution: A packet from PC1 to the Server using RIP routing protocol will follow the path PC1-S1-R1-R3-Server. The reason it
 goes R1 to R3 over the serial cable 56Kbps is because RIP choses the path with the last number of hops. 
