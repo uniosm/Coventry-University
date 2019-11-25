@@ -53,3 +53,25 @@ performance.
 *Question 2c) Explain the three-tier hierarchical network design approach. Name the three layers and discuss their role, function and relationship with each other.*
 
 **Solution:** A company called CISCO suggested the tree layer design. Those layers are: core layer which acts as the backbone, distribution layer which implies policies and routing amongst VLANs and access layer that provides the means for connecting devices. Core layer is designed to switch packets as fast as possible and doesn't perform packet manipulation (access list, filtering, etc.). Instead, those function are carried on the distribution layer which can be summarized as the layer providing policy-based connectivty. Finally, access layer is the point where end users are allowed into the network. This layer may implement further policy-based rules or not. There are other alternatives to the three layer design where the core and distribution layer are merged. 
+
+*Question 3a)Explain how the two TCP/IP transport layer protocols (TCP and UDP) are employed in the context of VoIP telephony*
+
+**Solution:** Because voice is a type of data, we don't necessarily need a voice only circuit network. VoIP or Voice over IP is IP telephony. It uses RTP or real-time transport protocol while employing UDP packets. UDP packets compared to TCP packets don't need to be fixed in case they have errors. The H.323 model is a protocol suite used in VoIP telephone which can use both UDP and TCP packets. TCP is used for signalling while UDP is implemented for audio and video transfer. 
+
+*Question 3b) One of the features of PPP is “multilink”. Briefly explain what this involves and what the advantages of this would be.*
+
+**Solution:**
+
+*Question 3c) Briefly explain “connection oriented” and “connectionless” communication.*
+
+**Solution:**
+
+*Question 3d) Explain QoS (Quality of Service) in the context of VoIP and describe the three methods that could be employed.*
+
+**Solution:** In VoIP quality of service helps ensuring a certain standard of service in regards to loss, signal to noise ratio, crosstalk, etc. Quality of Service helps with packet loss, jitter and handling delay. There are three models of QoS and those are: none: best effort delivery; integrated service: reserve bandwidth for voice; differentiated: classifies different types of traffic
+
+*Question 3c) Extended Unique Identifier (EUI), allows a host to assign itself a unique 64-Bit IPv6 interface identifier (EUI-64). Briefly explain the steps involved in doing so and write down the IPv6 address generated given the MAC address FF-11-11-22-22-22.*
+
+**Solution:**
+
+
