@@ -52,4 +52,4 @@ performance.
 
 *Question 2c) Explain the three-tier hierarchical network design approach. Name the three layers and discuss their role, function and relationship with each other.*
 
-**Solution:**
+**Solution:** A company called CISCO suggested the tree layer design. Those layers are: core layer which acts as the backbone, distribution layer which implies policies and routing amongst VLANs and access layer that provides the means for connecting devices. Core layer is designed to switch packets as fast as possible and doesn't perform packet manipulation (access list, filtering, etc.). Instead, those function are carried on the distribution layer which can be summarized as the layer providing policy-based connectivty. Finally, access layer is the point where end users are allowed into the network. This layer may implement further policy-based rules or not. There are other alternatives to the three layer design where the core and distribution layer are merged. 
