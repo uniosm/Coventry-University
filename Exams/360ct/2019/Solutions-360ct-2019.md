@@ -50,6 +50,6 @@ performance.
 **Solution:**
 
 
-*Question 2b) Explain the three-tier hierarchical network design approach. Name the three layers and discuss their role, function and relationship with each other.*
+*Question 2c) Explain the three-tier hierarchical network design approach. Name the three layers and discuss their role, function and relationship with each other.*
 
 **Solution:**
