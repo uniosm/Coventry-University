@@ -40,3 +40,16 @@ performance.
 *Question 1c) Due to a problem a routing loop has formed between four routing devices. What will happen to any packets entering it?*
 
 **Solution:** When packets enter any of those four routing devices, they will not be able to reach the supposed destination because of the loop situation. Usually TTL (Time to live) is a mechanism implemented as a counter to limit the timespan of data and thuse those packets trapped in the loop may be discarded. 
+
+*Question 2a) In the context of network design what is meant by the term “network diameter”? Briefly discuss the effects of increasing this value.*
+
+**Solution:**
+
+*Question 2b) Briefly discuss the advantages of employing a “layered” approach towards network design.*
+
+**Solution:**
+
+
+*Question 2b) Explain the three-tier hierarchical network design approach. Name the three layers and discuss their role, function and relationship with each other.*
+
+**Solution:**
