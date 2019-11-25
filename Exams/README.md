@@ -14,7 +14,7 @@ Question in italic: *Question 1) [question content and images if necessary].  Su
 
 Solution/answer without emphasised content. May contain images uploaded by the user. Cannot contain just images uploaded by the user: 
 
-Solution: This is particularly important...
+**Solution:** This is particularly important...
 
 
 Example
@@ -27,8 +27,8 @@ Example
 
 *a1) Allocate an IP address and specify why you chose this particular one*
 
-Solution: The IP address allocated is an IPv6 because...
+**Solution:** The IP address allocated is an IPv6 because...
 
 *a2) What should you consider from a security point of view?*
 
-Solution: Appropriate security measures must be...
+**Solution:** Appropriate security measures must be...
