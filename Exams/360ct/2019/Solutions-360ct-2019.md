@@ -15,7 +15,7 @@
 *a2) Which route a packet from PC1 to the Server follow if RIP routing protocol was used and why?*
 
 **Solution:** A packet from PC1 to the Server using RIP routing protocol will follow the path PC1-S1-R1-R3-Server. The reason it
-goes R1 to R3 over the serial cable 56Kbps is because RIP choses the path with the last number of hops. 
+goes R1 to R3 over the serial cable 56Kbps is because RIP choses the path with the least number of hops. 
 
 
 *a3) Which route a packet from PC1 to the Server follow if OSPF routing protocol was used and why?*
